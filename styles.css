@@ -235,6 +235,9 @@ body {
   font-weight: 600;
   color: var(--text-secondary);
   margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* Card wrappers - Native flat bento style */
@@ -469,6 +472,7 @@ body {
   margin-bottom: 6px;
 }
 
+.sidebar-section-title .badge,
 .queue-status-bar .badge {
   background-color: var(--text-primary);
   color: var(--bg-primary);
