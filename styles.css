@@ -942,7 +942,7 @@ body {
 /* Custom Voice Dropdown for Queue Items */
 .queue-item-voice-select-wrapper {
   flex: 0 0 auto !important;
-  width: 90px !important;
+  width: 105px !important;
 }
 
 .queue-item-voice-select-trigger {
@@ -965,6 +965,21 @@ body {
 .queue-item-voice-select-trigger:hover {
   background-color: var(--bg-tertiary) !important;
   border-color: var(--border-heavy) !important;
+}
+
+/* Compact styling for the queue voice options dropdown to reduce width and whitespace */
+#queueVoiceOptions {
+  min-width: 105px !important;
+  width: 105px !important;
+  padding: 4px 0 !important;
+  max-height: 110px !important;
+  overflow-y: auto !important;
+}
+
+#queueVoiceOptions .custom-option {
+  padding: 4px 6px !important;
+  margin: 1px 4px !important;
+  font-size: 10.5px !important;
 }
 
 /* Merge Delay Panel Styling */
